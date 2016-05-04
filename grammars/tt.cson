@@ -43,7 +43,7 @@
       }
     ]
   'directive':
-    'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK'
+    'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE'
     'name': 'keyword.control.directive.tt'
   'variable':
     'match': '[a-z.]+'

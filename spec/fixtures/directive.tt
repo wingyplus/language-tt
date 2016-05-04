@@ -3,3 +3,5 @@ some content
 [% ELSIF condition %]
 2
 [% END %]
+
+[% INCLUDE mytemplate.tt %]
