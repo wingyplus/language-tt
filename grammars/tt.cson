@@ -41,6 +41,9 @@
       {
         'include': '#directive'
       }
+      {
+        'include': '#terminator'
+      }
     ]
   'directive':
     'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE'
@@ -48,3 +51,6 @@
   'variable':
     'match': '[a-z._]+'
     'name': 'variable.language.tt'
+  'terminator':
+    'match': ';$'
+    'name': 'punctuation.terminator.tt'

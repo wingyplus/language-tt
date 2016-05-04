@@ -1,0 +1,6 @@
+[% IF condition;
+    INCLUDE test;
+   ELSE;
+    INCLUDE other/header;
+   END
+%]
