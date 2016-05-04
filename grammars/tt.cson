@@ -46,5 +46,5 @@
     'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE'
     'name': 'keyword.control.directive.tt'
   'variable':
-    'match': '[a-z.]+'
+    'match': '[a-z._]+'
     'name': 'variable.language.tt'
