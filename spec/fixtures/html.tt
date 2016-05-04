@@ -1,0 +1,4 @@
+<div>
+  [% IF condition %]
+  [% END %]
+</div>

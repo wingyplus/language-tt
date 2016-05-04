@@ -1,0 +1,5 @@
+[% IF condition %]
+some content
+[% ELSIF condition %]
+2
+[% END %]
