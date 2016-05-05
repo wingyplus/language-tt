@@ -5,3 +5,5 @@ some content
 [% END %]
 
 [% INCLUDE mytemplate.tt %]
+
+[% PROCESS header %]
