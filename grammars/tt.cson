@@ -11,6 +11,20 @@
   'text.html.tt - (meta.embeded | meta.tag), L:text.tt meta.tag':
     'patterns': [
       {
+        'begin': '\\[%(#)'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.section.embeded.begin.tt'
+          '1':
+            'name': 'comment.tt'
+        'end': '%\\]'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.section.embeded.end.tt'
+        'contentName': 'comment.tt'
+        'name': 'meta.embeded.block.tt'
+      }
+      {
         'begin': '\\[%'
         'beginCaptures':
           '0':
