@@ -58,6 +58,9 @@
       {
         'include': '#terminator'
       }
+      {
+        'include': '#comment'
+      }
     ]
   'directive':
     'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE|PROCESS'
@@ -68,3 +71,13 @@
   'terminator':
     'match': ';$'
     'name': 'punctuation.terminator.tt'
+  'comment':
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'comment.tt'
+    'end': '$|(%\\])'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.section.embeded.end.tt'
+    'contentName': 'comment.tt'
