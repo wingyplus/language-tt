@@ -25,13 +25,13 @@
         'name': 'meta.embeded.block.tt'
       }
       {
-        'begin': '\\[%'
+        'begin': '(\\[%)(?:\\s*)'
         'beginCaptures':
-          '0':
+          '1':
             'name': 'punctuation.section.embeded.begin.tt'
-        'end': '%\\]'
+        'end': '(?:\\s*)(%\\])'
         'endCaptures':
-          '0':
+          '1':
             'name': 'punctuation.section.embeded.end.tt'
         'patterns': [
           {
