@@ -50,9 +50,6 @@
   'language':
     'patterns': [
       {
-        'include': '#variable'
-      }
-      {
         'include': '#directive'
       }
       {
@@ -65,9 +62,6 @@
   'directive':
     'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE|PROCESS'
     'name': 'keyword.control.directive.tt'
-  'variable':
-    'match': '[a-z._]+'
-    'name': 'variable.language.tt'
   'terminator':
     'match': ';$'
     'name': 'punctuation.terminator.tt'
