@@ -83,7 +83,7 @@
     'beginCaptures':
       '0':
         'name': 'punctuation.definition.string.begin.tt'
-    'name': 'string.quoted.single.ruby'
+    'name': 'string.quoted.single.tt'
     'end': "'"
     'endCaptures':
       '0':
