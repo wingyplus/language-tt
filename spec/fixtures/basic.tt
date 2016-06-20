@@ -1,2 +1,6 @@
 [% name %]
 [% my_var.tt %]
+[%
+  h = 'do something'
+  year = "1234"
+%]

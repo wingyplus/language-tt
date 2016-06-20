@@ -58,6 +58,9 @@
       {
         'include': '#comment'
       }
+      {
+        'include': '#string'
+      }
     ]
   'directive':
     'match': 'ELSE|ELSIF|IF|END|FOREACH|BLOCK|INCLUDE|PROCESS'
@@ -75,3 +78,13 @@
       '0':
         'name': 'punctuation.section.embeded.end.tt'
     'contentName': 'comment.tt'
+  'string':
+    'begin': "'"
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.tt'
+    'name': 'string.quoted.single.ruby'
+    'end': "'"
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.tt'
