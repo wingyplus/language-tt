@@ -1,3 +1,3 @@
-# PackageName language package
+# Template Tookit grammar for Atom
 
-A short description of your language package.
+see https://atom.io/packages/language-tt
